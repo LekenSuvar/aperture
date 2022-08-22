@@ -254,7 +254,7 @@ nav {
 }
 
 .hero {
-  background: url(../img/hero.webp) no-repeat center/cover;
+  background: url(../img/hero.webp) no-repeat center/cover, #000;
   background-attachment: fixed;
   height: calc(100vh - 8rem);
   padding: 4rem 0;
