@@ -1,6 +1,5 @@
 // Custom Scripts
-window.addEventListener('DOMContentLoaded', ()=> {
-    // Custom scripts
+// Custom scripts
 // Мобильное меню бургер
 function burgerMenu() {
     const burger = document.querySelector('.burger')
@@ -43,5 +42,4 @@ function burgerMenu() {
   }
   window.addEventListener('scroll', fixedNav)
   ;
-})
 
