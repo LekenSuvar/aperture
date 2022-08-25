@@ -181,6 +181,17 @@ body.locked {
           align-items: center;
 }
 
+.fixed__nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+}
+
 @-webkit-keyframes fade {
   0% {
     opacity: 0;
@@ -204,10 +215,7 @@ body.locked {
 nav {
   background-color: #181818;
   overflow: hidden;
-  /* position: absolute; 
-  top: 0;
-  left: 0;
-  right: 0; */
+  z-index: 666;
 }
 
 .navbar {
@@ -943,7 +951,6 @@ nav {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    z-index: 22;
     -webkit-animation: fade 0.1s linear;
             animation: fade 0.1s linear;
   }
